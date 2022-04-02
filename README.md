@@ -17,7 +17,7 @@ A complete, simple, easy to use cheat sheet for ES6-ES10.
  - [Object Destructuring](#object-destructuring)
  - [Object Enhancements](#object-enhancements)
  - [New Useful Object Methods](#new-useful-object-methods)
- -  [For ... of Loop](#for-...-of-loop)
+ - [For ... of Loop](#for-...-of-loop)
  - [Class](#class)
  - [Import/Export](#importexport)
  - [Hash map](#hash-map)
@@ -452,6 +452,21 @@ createPerson({name:{ first: "Dev", last:"Social"}});
 [↑ Back to top](#es6-es7-es8-es9-es10-cheat-sheet)
 ## New Useful Object Methods
 The new object methods that would come in handy in ES6,7,8,9.
+
+**`Object.entries()`**
+
+```javascript
+// iterate through key-value gracefully
+const obj = { a: 5, b: 7, c: 9 };
+for (const [key, value] of Object.entries(obj)) {
+  console.log(`${key} ${value}`); // "a 5", "b 7", "c 9"
+}
+
+// Or, using array extras
+Object.entries(obj).forEach(([key, value]) => {
+  console.log(`${key} ${value}`); // "a 5", "b 7", "c 9"
+});
+```
 
 **`Object.assign()`**
 
