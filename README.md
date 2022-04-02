@@ -3,10 +3,6 @@
 
 A complete, simple, easy to use cheat sheet for ES6-ES10.
 
-Support us at:
-- Website: [http://devsocial.io/](http://devsocial.io/)
-- YouTube: [Devsocial](https://www.youtube.com/channel/UCShL9oRNWYyfrqBuDi6uZpA)
-
 ## Table of Contents
 
  - [Define variables (const & let)](#define-variables-const--let)
